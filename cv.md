@@ -14,7 +14,7 @@ text text
 * TeX, LaTeX, Word, Excel, PowerPoint
 
 ## Code examples:
-1.
+---
 ```javascript
 function nicknameGenerator(name){
     if (name.length < 4) {
@@ -31,8 +31,9 @@ function nicknameGenerator(name){
 
 console.log(nicknameGenerator("Jimmy"));
 ```
-2. 
-```c++
+
+--- 
+``` cpp
 #include "game_loop.h"
 #include <fstream>
 #include <memory>
@@ -72,8 +73,9 @@ bool GameLoop::EndGame(int state) {
   return false;
 }
 ```
-3.
-```c#
+
+---
+``` csharp
 using System;
 using System.Collections.Generic;
 using System.IO;
