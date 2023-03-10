@@ -7,10 +7,122 @@
 text text
 #
 ## Skills:
-text text
+* C, C++, C#, Python, JavaScript, QML, HTML, CSS
+* Xamarin, WPF, Unity, Qt
+* Git, GitHub
+* CMake
+* TeX, LaTeX, Word, Excel, PowerPoint
 #
 ## Code examples:
-text text
+1.
+```
+function nicknameGenerator(name){
+    if (name.length < 4) {
+        return "Error: Name too short";
+    }
+    const vowels = "aeiou";
+    let end = 4;
+    if (vowels.includes(name[3])) {
+        end = 5;
+    }
+    return name.slice(0, end);
+}
+
+
+console.log(nicknameGenerator("Jimmy"));
+```
+2. 
+```
+#include "game_loop.h"
+#include <fstream>
+#include <memory>
+#include <sstream>
+#include <string>
+#include <vector>
+#include <iostream>
+
+GameLoop::GameLoop() {
+  map_ = std::make_unique<Map>();
+}
+
+void GameLoop::Play() {
+  map_->Load();
+  map_->Show();
+  map_->Update();
+  EndGame(map_->GetState());
+}
+
+bool GameLoop::EndGame(int state) {
+  switch(state) {
+    case ALIVE:
+      return false;
+      break;
+    case DEAD:
+      std::cout << "you died";
+      return true;
+      break;
+    case WINNER:
+      std::cout << "you won the game!";
+      return true;
+      break;
+    default:
+      break;
+  }
+
+  return false;
+}
+```
+3.
+```
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Threading.Tasks;
+using Newtonsoft.Json;
+using Notes.ViewModel;
+
+namespace Notes.Service
+{
+    class Saver
+    {
+        private static readonly Lazy<Saver> _instance = new Lazy<Saver>(() => new Saver());
+        private string _path;
+        private Saver()
+        {
+            _path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "data.json");
+        }
+
+        public static Saver Instance 
+        {
+            get => _instance.Value;
+        }
+
+        public async void SaveDataAsync(List<NoteViewModel> list)
+        {
+            using (var sw = new StreamWriter(_path))
+            {
+                string task = await Task.Run(() =>
+                 (JsonConvert.SerializeObject(list)));
+
+                sw.Write(task);
+            }
+        }
+
+        public List<NoteViewModel> LoadData()
+        {
+            if (!File.Exists(_path))
+            {
+                return new List<NoteViewModel>();
+            }
+
+            using (var sr = new StreamReader(_path))
+            {
+                return JsonConvert.DeserializeObject<List<NoteViewModel>>(sr.ReadLine());
+            }
+        }
+    }
+}
+```
 #
 ## Experience:
 text text
