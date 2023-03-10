@@ -2,20 +2,26 @@
 ## Contacts:
 * Github: [dma117](https://github.com/dma117)
 * Telegram: [@g0tcha](https://t.me/g0tcha)
+
 #
+
 ## About me:
 text text
+
 #
+
 ## Skills:
 * C, C++, C#, Python, JavaScript, QML, HTML, CSS
 * Xamarin, WPF, Unity, Qt
 * Git, GitHub
 * CMake
 * TeX, LaTeX, Word, Excel, PowerPoint
+
 #
+
 ## Code examples:
 1.
-```
+```javascript
 function nicknameGenerator(name){
     if (name.length < 4) {
         return "Error: Name too short";
@@ -32,7 +38,7 @@ function nicknameGenerator(name){
 console.log(nicknameGenerator("Jimmy"));
 ```
 2. 
-```
+```c++
 #include "game_loop.h"
 #include <fstream>
 #include <memory>
@@ -73,7 +79,7 @@ bool GameLoop::EndGame(int state) {
 }
 ```
 3.
-```
+```c#
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -123,12 +129,20 @@ namespace Notes.Service
     }
 }
 ```
+
 #
+
 ## Experience:
 text text
+
 #
+
 ## Education:
-text text
+I am currently a student of [Far Eastern Federal University](https://www.dvfu.ru/en/), located in Russia, Vladivostok. I study Applied Mathematics and Information Science. 
+
+In recent years I finished the following courses (some of them partially): [The Web Developer Bootcamp 2023](https://www.udemy.com/course/the-web-developer-bootcamp/), [The Ultimate Guide to Game Development with Unity (Official)](https://www.udemy.com/course/the-ultimate-guide-to-game-development-with-unity/). I also was enrolled in courses of different english levels on [Foxford](https://foxford.ru/). In 2022 on one of that courses I learned the structure of IELTS exam and practiced some tasks.
+
 #
+
 ## Languages:
 text text
