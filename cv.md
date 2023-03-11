@@ -4,7 +4,13 @@
 * Telegram: [@g0tcha](https://t.me/g0tcha)
 
 ## About me:
-text text
+I am eager to learn web development, deeply dive into every detail of this process. 
+
+I am very interested in ergonomics and healthy life style. I take exercises 3 days a week in a gym and also learn to swim which usually takes 1.5 hours a week. Some day I came across neuroscience videos and it was amazing to know how we move.
+
+I am fond of learning English. It brings me great joy.
+
+It appeals me a lot to travel so I would like to do it more often in the future.
 
 ## Skills:
 * C, C++, C#, Python, JavaScript, QML, HTML, CSS
