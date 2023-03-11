@@ -14,7 +14,7 @@ text text
 * TeX, LaTeX, Word, Excel, PowerPoint
 
 ## Code examples:
----
+
 ```javascript
 function nicknameGenerator(name){
     if (name.length < 4) {
@@ -127,12 +127,17 @@ namespace Notes.Service
 ```
 
 ## Experience:
-text text
+1. [Registration form in HTML, CSS](https://dma117.github.io/), here is [source code](https://github.com/dma117/dma117.github.io).
+2. [Mini-game in HTML, CSS, JavaScript](https://github.com/dma117/WebProgramming/tree/master/lab07) that was done as a final project during the very first course on web development.
+2. [Project in C++ language](https://github.com/dma117/Labs_CPlusPlus/tree/master/ComplexNumbers_lab): a library for doing basic complex number arithmetic (add, subtract, multiply, divide).
+3. [Projects in C# language using Xamarin platform](https://github.com/dma117/MobileDevelopment) including delivery app, notes and weather app. I did them when I was learning mobile development. 
+4. [Bank app in C# language](https://github.com/dma117/term3_XamarinCourseProject). It was written as a semester project in a team of 4 people. 
+
 
 ## Education:
 I am currently a student of [Far Eastern Federal University](https://www.dvfu.ru/en/), located in Russia, Vladivostok. I study Applied Mathematics and Information Science. 
 
-In recent years I finished the following courses (some of them partially): [The Web Developer Bootcamp 2023](https://www.udemy.com/course/the-web-developer-bootcamp/), [The Ultimate Guide to Game Development with Unity (Official)](https://www.udemy.com/course/the-ultimate-guide-to-game-development-with-unity/). I also was enrolled in courses of different english levels on [Foxford](https://foxford.ru/). In 2022 on one of that courses I learned the structure of IELTS exam and practiced some tasks.
+In recent years I finished the following courses (some of them partially): [The Web Developer Bootcamp 2023](https://www.udemy.com/course/the-web-developer-bootcamp/), [The Ultimate Guide to Game Development with Unity (Official)](https://www.udemy.com/course/the-ultimate-guide-to-game-development-with-unity/). I also was enrolled in courses of different English levels on [Foxford](https://foxford.ru/). In 2022 on one of that courses I learned the structure of IELTS exam and practiced some tasks.
 
-## Languages:
-text text
+## English:
+My level of English is B2 (Intermediate).
