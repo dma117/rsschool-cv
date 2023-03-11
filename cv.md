@@ -2,11 +2,12 @@
 ## Contacts:
 * Github: [dma117](https://github.com/dma117)
 * Telegram: [@g0tcha](https://t.me/g0tcha)
+* Discord: [Donskaya Maria#2879](https://discordapp.com/users/534122704819978251)
 
 ## About me:
 I am eager to learn web development, deeply dive into every detail of this process. 
 
-I am very interested in ergonomics and healthy life style. I take exercises 3 days a week in a gym and also learn to swim which usually takes 1.5 hours a week. Some day I came across neuroscience videos and it was amazing to know how we move.
+I am very interested in ergonomics and a healthy lifestyle. I take exercises 3 days a week in a gym and also learn to swim which usually takes 1.5 hours a week. Some day I came across neuroscience videos and it was amazing to know how we move.
 
 I am fond of learning English. It brings me great joy.
 
