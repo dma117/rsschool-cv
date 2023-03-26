@@ -1,1 +1,1 @@
-https://dma117.github.io/rsschool-cv/cv
+https://dma117.github.io/rsschool-cv/
